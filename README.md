@@ -10,6 +10,7 @@ Started programming on a Commodore 64 in BASIC. Daily-driving Linux since Red Ha
   - [PR #4731](https://github.com/niri-wm/niri/pull/4731): Fix stuck modifier state in nested winit sessions on focus loss.
   - [PR #4719](https://github.com/niri-wm/niri/pull/4719): Add live-reloaded KDL option to hide host cursor in nested development sessions.
   - [Multi-monitor & input physics](https://github.com/Atan-D-RP4/niri/pull/2): Per-monitor isolation, spring physics animations, and temporal key acceleration (fork collaboration).
+- **[niri-screenshot-daemon](https://github.com/broli/niri-screenshot-daemon)** — Event-driven multi-session screenshot watchdog bridging Niri IPC to Satty with zero idle CPU.
 - **Internal Tooling & Automation** — Building PySide6 desktop utilities, Playwright pipelines, and local LLM integrations that replaced 26+ hours/week of manual operations.
 - **Enterprise IT Delivery** — 19 years leading infrastructure, incident response, and Agile delivery across regional operations.
 
@@ -17,10 +18,11 @@ Started programming on a Commodore 64 in BASIC. Daily-driving Linux since Red Ha
 
 | Project | Description | Stack |
 | :--- | :--- | :--- |
-| **[run-proton-tui](https://github.com/broli/run-proton-tui)** | Interactive TUI launcher for running games under Proton/Wine outside Steam | `Bash` `Proton` `Wine` |
-| **[tachopulse](https://github.com/broli/tachopulse)** | Hardware telemetry widget for the Noctalia v5 desktop shell | `QML` `JavaScript` |
+| **[niri-screenshot-daemon](https://github.com/broli/niri-screenshot-daemon)** | Event-driven multi-session screenshot watchdog for Niri | `Rust` `Wayland IPC` `Unix Sockets` |
+| **[run-proton-tui](https://github.com/broli/run-proton-tui)** | Interactive TUI launcher for running games under Proton/Wine outside Steam | `Go` `Bubbletea` `Proton` |
+| **[tachopulse](https://github.com/broli/tachopulse)** | Hardware telemetry widget for the Noctalia v5 desktop shell | `QML` `JavaScript` `Linux Sensors` |
 | **[PKB-SMS-Assistant](https://github.com/broli/PKB-SMS-Assistant)** | Desktop client for SMS triage and drafting over the GoTo Connect API | `Python` `PySide6` `REST` |
-| **[OllamaGUI](https://github.com/broli/OllamaGUI)** | Native desktop client for streaming chat with local Ollama models | `Python` `PySide6` |
+| **[OllamaGUI](https://github.com/broli/OllamaGUI)** | Native desktop client for streaming chat with local Ollama models | `Python` `PySide6` `Async` |
 | **[pkb-daily-logs](https://github.com/broli/pkb-daily-logs)** | Automated compliance reporting pipeline | `Python` `Playwright` |
 
 ### Links
