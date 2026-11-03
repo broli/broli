@@ -21,7 +21,7 @@ Started programming on a Commodore 64 in BASIC. Daily-driving Linux since Red Ha
 | **[niri-screenshot-daemon](https://github.com/broli/niri-screenshot-daemon)** | Event-driven multi-session screenshot watchdog for Niri | `Rust` `Wayland IPC` `Unix Sockets` |
 | **[run-proton-tui](https://github.com/broli/run-proton-tui)** | Interactive TUI launcher for running games under Proton/Wine outside Steam | `Go` `Bubbletea` `Proton` |
 | **[tachopulse](https://github.com/broli/tachopulse)** | Hardware telemetry widget for the Noctalia v5 desktop shell | `QML` `JavaScript` `Linux Sensors` |
-| **[PKB-SMS-Assistant](https://github.com/broli/PKB-SMS-Assistant)** | Desktop client for SMS triage and drafting over the GoTo Connect API | `Python` `PySide6` `REST` |
+| **[oozecrawler](https://github.com/broli/oozecrawler)** | 2D Suika-style physics merge puzzle & roguelite dungeon crawler | `Godot 4` `GDScript 2.0` `Shaders` |
 | **[OllamaGUI](https://github.com/broli/OllamaGUI)** | Native desktop client for streaming chat with local Ollama models | `Python` `PySide6` `Async` |
 | **[pkb-daily-logs](https://github.com/broli/pkb-daily-logs)** | Automated compliance reporting pipeline | `Python` `Playwright` |
 
