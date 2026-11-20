@@ -18,6 +18,7 @@ Started programming on a Commodore 64 in BASIC. Daily-driving Linux since Red Ha
 
 | Project | Description | Stack |
 | :--- | :--- | :--- |
+| **[beholder-brother](https://github.com/broli/beholder-brother)** | Lightweight system telemetry daemon & read-only inline-SVG viewer for low-power Linux hosts | `Rust` `Linux Telemetry` `SVG` |
 | **[niri-screenshot-daemon](https://github.com/broli/niri-screenshot-daemon)** | Event-driven multi-session screenshot watchdog for Niri | `Rust` `Wayland IPC` `Unix Sockets` |
 | **[run-proton-tui](https://github.com/broli/run-proton-tui)** | Interactive TUI launcher for running games under Proton/Wine outside Steam | `Go` `Bubbletea` `Proton` |
 | **[tachopulse](https://github.com/broli/tachopulse)** | Hardware telemetry widget for the Noctalia v5 desktop shell | `QML` `JavaScript` `Linux Sensors` |
