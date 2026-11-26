@@ -6,11 +6,20 @@ Started programming on a Commodore 64 in BASIC. Daily-driving Linux since Red Ha
 
 ### Upstream & Systems Work
 
-- **[niri-wm/niri](https://github.com/niri-wm/niri)** — Contributor to the scrollable-tiling Wayland compositor (Rust):
-  - [PR #4731](https://github.com/niri-wm/niri/pull/4731): Fix stuck modifier state in nested winit sessions on focus loss.
-  - [PR #4719](https://github.com/niri-wm/niri/pull/4719): Add live-reloaded KDL option to hide host cursor in nested development sessions.
+- **[noctalia-dev/luciole](https://github.com/noctalia-dev/luciole)** — Contributor to the native Wayland file manager (C++ / Meson / GIO):
+  - [PR #162](https://github.com/noctalia-dev/luciole/pull/162) *(Merged)*: Sync Save file chooser filename extensions with active format filters for XDG portal callers (+642/-44 across 9 files).
+  - [PR #89](https://github.com/noctalia-dev/luciole/pull/89) *(Merged)*: Add configurable single-click location bar editing option.
+  - [PR #91](https://github.com/noctalia-dev/luciole/pull/91) *(Merged, Co-Reviewed & Verified)*: Custom folder icon & symlink metadata resolution (`NOFOLLOW_SYMLINKS` edge-case catches).
+- **[niri-wm/niri](https://github.com/niri-wm/niri)** — Contributor & active triager for the scrollable-tiling Wayland compositor (Rust / Smithay / GLES2):
+  - [PR #4731](https://github.com/niri-wm/niri/pull/4731) *(Merged)*: Fix stuck modifier state in nested winit sessions on focus loss.
+  - [PR #4719](https://github.com/niri-wm/niri/pull/4719) *(Merged)*: Add live-reloaded KDL option to hide host cursor in nested development sessions.
+  - [PR #4851](https://github.com/niri-wm/niri/pull/4851) *(Open)*: Accessibility dwell clicker with GLES2 cursor ring shader, KDL config, and IPC mode actions (+2,080/-31 across 21 files).
   - [Multi-monitor & input physics](https://github.com/Atan-D-RP4/niri/pull/2): Per-monitor isolation, spring physics animations, and temporal key acceleration (fork collaboration).
-- **[niri-screenshot-daemon](https://github.com/broli/niri-screenshot-daemon)** — Event-driven multi-session screenshot watchdog bridging Niri IPC to Satty with zero idle CPU.
+- **[noctalia-dev/noctalia](https://github.com/noctalia-dev/noctalia)** — Contributor to the customizable Wayland desktop shell (C++):
+  - [PR #5543](https://github.com/noctalia-dev/noctalia/pull/5543) *(Open)*: Configurable taskbar launch feedback animations (`bounce`, `pop`, `pulse`) with unit tests.
+- **[GraphiteEditor/Graphite](https://github.com/GraphiteEditor/Graphite)** — Contributor to the node-based 2D graphics editor (Rust / WGPU):
+  - [PR #4966](https://github.com/GraphiteEditor/Graphite/pull/4966) *(Open)*: Fix infinite `SurfaceOutdated` render loop on stale WGPU surfaces under Wayland/hybrid GPUs.
+- **[niri-screenshot-daemon](https://github.com/broli/niri-screenshot-daemon)** — Event-driven multi-session screenshot watchdog bridging Niri IPC to Satty with D-Bus notifications & host clipboard copy.
 - **Internal Tooling & Automation** — Building PySide6 desktop utilities, Playwright pipelines, and local LLM integrations that replaced 26+ hours/week of manual operations.
 - **Enterprise IT Delivery** — 19 years leading infrastructure, incident response, and Agile delivery across regional operations.
 
